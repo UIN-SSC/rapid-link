@@ -1,0 +1,241 @@
+:root {
+    /* UINSSC Grand Design Theme */
+    --primary: #0e593d;
+    /* Deep Green */
+    --primary-light: #11413e;
+    /* Dark Teal */
+    --accent: #b98f2e;
+    /* Gold / Mustard */
+    --bg-page: #f3f3f3;
+    /* Light Gray Background */
+    --bg-card: #ffffff;
+    --text-main: #091615;
+    /* Very Dark Green (for text) */
+    --text-muted: #90643b;
+    /* Bronze */
+    --border-color: #E5E5EA;
+    --gradient-brand: linear-gradient(135deg, #0e593d 0%, #11413e 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* PT Sans for UINSSC Brand, falling back to system fonts */
+    font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg-page);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+}
+
+.profile-img-container {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.badge-tagline {
+    display: inline-block;
+    background: var(--gradient-brand);
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 6px rgba(14, 89, 61, 0.2);
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: var(--text-main);
+    letter-spacing: -0.02em;
+}
+
+.profile p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+/* Sections */
+.links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.section-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
+/* Search Bar (iOS Style) */
+.search-container {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 0.6rem 1rem 0.6rem 2.25rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #E3E3E8;
+    font-family: inherit;
+    font-size: 1.05rem;
+    color: var(--text-main);
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#searchInput::placeholder {
+    color: #a1a1aa;
+}
+
+#searchInput:focus {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(185, 143, 46, 0.5);
+    /* Gold glow */
+}
+
+/* Link Cards (Flat / Professional / Apple-like) */
+.link-card {
+    display: flex;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+/* Efek saat kursor diarahkan (Hover di PC) */
+.link-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 15px rgba(185, 143, 46, 0.2);
+    /* Gold shadow */
+    transform: translateY(-3px);
+}
+
+/* Efek saat diklik / disentuh (Active di HP & PC) */
+.link-card:active {
+    background: #e5e5ea;
+    box-shadow: 0 1px 2px rgba(9, 22, 21, 0.05);
+    transform: scale(0.96) translateY(0);
+    border-color: var(--border-color);
+}
+
+/* Gradient Logo Icons */
+.link-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--gradient-brand);
+    color: #ffffff;
+    /* White logo inside the gradient shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+/* Enhance icon on hover */
+.link-card:hover .link-icon {
+    box-shadow: 0 2px 8px rgba(14, 89, 61, 0.4);
+}
+
+.link-content {
+    flex-grow: 1;
+}
+
+.link-content h3 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--text-main);
+    line-height: 1.3;
+}
+
+.link-arrow {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+    }
+}
