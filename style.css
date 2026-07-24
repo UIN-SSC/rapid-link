@@ -195,52 +195,53 @@ h1 {
     100% { box-shadow: 0 0 10px rgba(185, 143, 46, 0.3); }
 }
 
-.link-icon.pdf {
+/* Specific Brand Colors (Only visible on hover) */
+.link-card:not(.priority-card):hover .link-icon.pdf {
     background: #e74c3c;
     color: white;
 }
 
-.link-icon.word {
+.link-card:not(.priority-card):hover .link-icon.word {
     background: #2b579a;
     color: white;
 }
 
-.link-icon.excel {
+.link-card:not(.priority-card):hover .link-icon.excel {
     background: #217346;
     color: white;
 }
 
-.link-icon.drive {
-    background: #1FA463; /* Drive brand color */
+.link-card:not(.priority-card):hover .link-icon.drive {
+    background: #1FA463;
     color: white;
 }
 
-.link-icon.whatsapp {
+.link-card:not(.priority-card):hover .link-icon.whatsapp {
     background: #25D366;
     color: white;
 }
 
-.link-icon.telegram {
+.link-card:not(.priority-card):hover .link-icon.telegram {
     background: #0088cc;
     color: white;
 }
 
-.link-icon.instagram {
+.link-card:not(.priority-card):hover .link-icon.instagram {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     color: white;
 }
 
-.link-icon.youtube {
+.link-card:not(.priority-card):hover .link-icon.youtube {
     background: #FF0000;
     color: white;
 }
 
-.link-icon.facebook {
+.link-card:not(.priority-card):hover .link-icon.facebook {
     background: #1877F2;
     color: white;
 }
 
-.link-icon.tiktok {
+.link-card:not(.priority-card):hover .link-icon.tiktok {
     background: #000000;
     color: white;
 }
