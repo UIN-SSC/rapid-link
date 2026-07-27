@@ -113,30 +113,30 @@
             });
         }
 
-        // Fetch data dengan sistem CACHE (Stale-While-Revalidate)
-        async function fetchLinks() {
+        // Fetch data (Dengan Skeleton Loader di awal, Cache sebagai cadangan saat Offline)
+        async function fetchLinks(isBackground = false) {
             const container = document.getElementById('links-container');
             const cachedData = localStorage.getItem('uinssc_links_cache');
             
-            // 1. Tampilkan data dari Cache secara INSTAN (0 detik loading) jika ada
-            if (cachedData) {
-                renderLinks(JSON.parse(cachedData), container);
-            }
-            
-            // 2. Ambil data terbaru dari Server di latar belakang secara diam-diam
             try {
-                const response = await fetch(API_URL);
+                // Selalu ambil data terbaru dari server (dengan timestamp untuk bypass cache browser)
+                const response = await fetch(API_URL + "?t=" + new Date().getTime());
                 const data = await response.json();
                 
-                // 3. Jika ada perubahan data baru, Update UI & Cache
-                if (cachedData !== JSON.stringify(data)) {
-                    localStorage.setItem('uinssc_links_cache', JSON.stringify(data));
+                // Simpan ke cache
+                localStorage.setItem('uinssc_links_cache', JSON.stringify(data));
+                
+                // Jika bukan polling latar belakang, ATAU jika ada perubahan data saat polling, update UI
+                if (!isBackground || (cachedData !== JSON.stringify(data))) {
                     renderLinks(data, container);
                 }
             } catch (error) {
-                console.error("Gagal memuat data latar belakang:", error);
-                // Hanya tampilkan error merah jika cache kosong (pengguna baru pertama kali buka web saat offline)
-                if (!cachedData) {
+                console.error("Gagal memuat dari server:", error);
+                
+                // Jika server gagal/offline, gunakan Cache sebagai cadangan (Fallback)
+                if (cachedData && !isBackground) {
+                    renderLinks(JSON.parse(cachedData), container);
+                } else if (!cachedData && !isBackground) {
                     container.innerHTML = `
                         <div style="text-align:center; padding: 2rem 0;">
                             <i class="fa-solid fa-circle-exclamation" style="color: red; font-size: 2rem; margin-bottom: 10px;"></i><br>
@@ -147,8 +147,11 @@
             }
         }
 
-        // Jalankan fetch saat halaman dimuat
-        fetchLinks();
+        // Jalankan fetch saat halaman dimuat (tampilkan skeleton di awal)
+        fetchLinks(false);
+
+        // Background Polling setiap 3 menit (cek diam-diam tanpa memunculkan skeleton)
+        setInterval(() => fetchLinks(true), 180000);
 
         // Fitur pencarian
         function filterLinks() {
