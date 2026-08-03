@@ -1,6 +1,12 @@
 [
     {
-        "title": "Pembayaran Program Ma?had Al-Jami?ah Tahun Akademik 2026/2027",
+        "title": "Daftar Nama & Jadwal Chek In Mahasantri Baru pada Program Mukim Ma?had Al-Jami?ah Gel. I Tahun Akademik 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Surat-Pengumuman-mahasantri-mukim-gel-1-TA-20262027_signed_compressed.pdf",
+        "icon": "fa-file-pdf",
+        "isPriority": true
+    },
+    {
+        "title": "Pembayaran Program Mahad Al-Jamiah Tahun Akademik 2026/2027",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/surat-edaran-ketentuan-pembayaran-mahad_signed.pdf",
         "icon": "fa-credit-card-alt",
         "isPriority": true
