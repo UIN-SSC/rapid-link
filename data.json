@@ -1,8 +1,116 @@
 [
     {
-        "title": "Data Sedang Diupdate...",
-        "url": "#",
-        "icon": "fa-spinner fa-spin",
+        "title": "Pembayaran Program Ma?had Al-Jami?ah Tahun Akademik 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/surat-edaran-ketentuan-pembayaran-mahad_signed.pdf",
+        "icon": "fa-credit-card-alt",
+        "isPriority": true
+    },
+    {
+        "title": "Pelaksanaan Herregistrasi Semester Ganjil Tahun Akademik 2026/2027",
+        "url": "https://ppid.uinssc.ac.id/storage/public-information/Pengumuman%20Perpanjangan%20Herregistrasi%20Semester%20Ganjil%202026-2027.pdf",
+        "icon": "fa-credit-card-alt",
+        "isPriority": true
+    },
+    {
+        "title": "Pengumuman Placement Test Ma?had MABA Jalur UMPTKIN 2026",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/07/Pengumuman-Placement-Test-Mahad-MABA-Jalur-UMPTKIN-26_compressed-1.pdf",
+        "icon": "fa-bullhorn",
+        "isPriority": true
+    },
+    {
+        "title": "Pengumuman Pembayaran UKT Calon Mahasiswa Baru PJJ PAI S1 Reguler & Kemitraan Tahun Akademik 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/07/Pengumuman-UKT-PJJ-S1-Reguler-dan-Kemitraan-Tahun-2026.pdf",
+        "icon": "fa-rupiah-sign",
+        "isPriority": true
+    },
+    {
+        "title": "Keputusan Rektor Tentang Peserta Lulus SPMB Mandiri PJJ S1 Reguler & Kemitraan Tahun Akademik 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/07/1721_SK-Kelulusan-mandiri-pjj-s1-reguler-dan-kemitraan-2026_.pdf",
+        "icon": "fa-file-pdf",
+        "isPriority": true
+    },
+    {
+        "title": "Pengumuman Pelaksanaan Wisuda ke V Tahun 2026",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/07/Pengumuman.pdf",
+        "icon": "fa-bullhorn",
+        "isPriority": false
+    },
+    {
+        "title": "Pemeriksaan Kesehatan Camaba SPMB Mandiri Reguler",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCXHnD4xcSBdYa6hAwfJnxnzKVjKZzY4pfKB6Y_AejPSzeRA/viewform",
+        "icon": "fa-clipboard-list",
+        "isPriority": false
+    },
+    {
+        "title": "Daftar Beasiswa - eBeasiswa",
+        "url": "https://beasiswa.uinssc.ac.id",
+        "icon": "fa-award",
+        "isPriority": false
+    },
+    {
+        "title": "Unduh Berkas Pengumuman Beasiswa Kerja UIN SSC 2026 - (Deadline: 27 Juli 2026)",
+        "url": "https://ppid.uinssc.ac.id/storage/public-information/Pengumuman%20Pendaftaran%20Beasiswa%20Kerja%202026.pdf",
+        "icon": "fa-file-pdf",
+        "isPriority": false
+    },
+    {
+        "title": "Kalender Akademik 2026/2027",
+        "url": "https://ppid.uinssc.ac.id/kalender-akademik-20262027",
+        "icon": "fa-calendar-days",
+        "isPriority": false
+    },
+    {
+        "title": "WhatsApp Channel PMB UIN SSC",
+        "url": "https://whatsapp.com/channel/0029VawoSKI1iUxWPloDKZ3M",
+        "icon": "fa-brands fa-whatsapp",
+        "isPriority": false
+    },
+    {
+        "title": "PPID UIN SSC",
+        "url": "https://ppid.uinssc.ac.id",
+        "icon": "fa-circle-info",
+        "isPriority": false
+    },
+    {
+        "title": "Pusat Layanan Terpadu UIN SSC",
+        "url": "https://plt.uinssc.ac.id",
+        "icon": "fa-headset",
+        "isPriority": false
+    },
+    {
+        "title": "WhatsApp Channel UIN SSC",
+        "url": "https://whatsapp.com/channel/0029VbCGLsB7j6g0HWXIYU15",
+        "icon": "fa-brands fa-whatsapp",
+        "isPriority": false
+    },
+    {
+        "title": "Official Instagram UIN Siber Syekh Nurjati Cirebon",
+        "url": "https://www.instagram.com/uinsscofficial/",
+        "icon": "fa-brands fa-instagram",
+        "isPriority": false
+    },
+    {
+        "title": "Official YouTube UIN Siber Syekh Nurjati Cirebon",
+        "url": "https://www.youtube.com/@uinsibersyekhnurjaticirebon",
+        "icon": "fa-brands fa-youtube",
+        "isPriority": false
+    },
+    {
+        "title": "Official Website UIN Siber Syekh Nurjati Cirebon",
+        "url": "https://uinssc.ac.id/",
+        "icon": "fa-globe",
+        "isPriority": false
+    },
+    {
+        "title": "Portal Berita dan Informasi UIN Siber Syekh Nurjati Cirebon",
+        "url": "https://info.uinssc.ac.id/",
+        "icon": "fa-newspaper",
+        "isPriority": false
+    },
+    {
+        "title": "Pengajuan Publikasi & Peliputan Kegiatan dan Survey Kepuasan Layanan",
+        "url": "https://humasuinssc.taplink.site",
+        "icon": "fa-bullhorn",
         "isPriority": false
     }
 ]
