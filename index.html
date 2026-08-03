@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UINSSC Connect - One Link, Endless Access</title>
-    <meta name="description"
-        content="PTKIN Siber Pertama di Indonesia Kampus Unggul Berkelas Dunia.">
-    
+    <meta name="description" content="PTKIN Siber Pertama di Indonesia Kampus Unggul Berkelas Dunia.">
+
     <!-- Open Graph / Meta Tags for Sharing -->
     <meta property="og:title" content="UINSSC Connect - One Link, Endless Access">
-    <meta property="og:description" content="PTKIN Siber Pertama di Indonesia Kampus Unggul Berkelas Dunia. UIN Siber Syekh Nurjati Cirebon.">
+    <meta property="og:description"
+        content="PTKIN Siber Pertama di Indonesia Kampus Unggul Berkelas Dunia. UIN Siber Syekh Nurjati Cirebon.">
     <meta property="og:image" content="https://lh3.googleusercontent.com/u/0/d/16qXcKwpqyUeU6sohVY0q-W1sF-SFH6_6">
     <meta property="og:type" content="website">
-    
+
     <!-- Favicon (Browser Tab Icon) - Letter C Logogram -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwZTU5M2QiIC8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMTE0MTNlIiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiByeD0iMjUiIGZpbGw9InVybCgjZykiIC8+PHRleHQgeD0iNTAiIHk9IjczIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkM8L3RleHQ+PC9zdmc+">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwZTU5M2QiIC8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMTE0MTNlIiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiByeD0iMjUiIGZpbGw9InVybCgjZykiIC8+PHRleHQgeD0iNTAiIHk9IjczIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkM8L3RleHQ+PC9zdmc+">
 
     <link rel="stylesheet" href="style.css?v=3.0">
     <!-- Google Fonts for UINSSC Brand -->
@@ -31,7 +32,9 @@
     <main class="container">
         <header class="profile">
             <div class="profile-img-container">
-                <img src="https://lh3.googleusercontent.com/u/0/d/16qXcKwpqyUeU6sohVY0q-W1sF-SFH6_6" alt="UIN Siber Syekh Nurjati Logo" class="profile-img" draggable="false" oncontextmenu="return false;">
+                <img src="https://lh3.googleusercontent.com/u/0/d/16qXcKwpqyUeU6sohVY0q-W1sF-SFH6_6"
+                    alt="UIN Siber Syekh Nurjati Logo" class="profile-img" draggable="false"
+                    oncontextmenu="return false;">
             </div>
             <div class="badge-tagline">One Link in Bio for Endless Information</div>
             <h1>UIN Siber Syekh Nurjati Cirebon</h1>
@@ -73,8 +76,8 @@
     </main>
 
     <script>
-        // URL Google Apps Script
-        const API_URL = "https://script.google.com/macros/s/AKfycbxv7q-NKn8ue8XXqQwLP8mTXkIQyfgumgzYZ5NKZURSXuPcpxgGG_wem1hHcr-tpzWv/exec";
+        // URL GitHub CDN Lokal
+        const API_URL = "./data.json";
 
         // Fungsi render untuk menampilkan link ke HTML
         function renderLinks(data, container) {
@@ -85,7 +88,7 @@
                 a.className = item.isPriority ? 'link-card priority-card' : 'link-card';
                 a.target = '_blank';
                 a.rel = 'noopener noreferrer';
-                
+
                 let iconClass = item.icon.trim();
                 if (!iconClass.includes('fa-')) iconClass = 'fa-link';
                 if (!iconClass.includes('fa-solid') && !iconClass.includes('fa-brands')) iconClass = 'fa-solid ' + iconClass;
@@ -117,22 +120,22 @@
         async function fetchLinks(isBackground = false) {
             const container = document.getElementById('links-container');
             const cachedData = localStorage.getItem('uinssc_links_cache');
-            
+
             try {
                 // Selalu ambil data terbaru dari server (dengan timestamp untuk bypass cache browser)
                 const response = await fetch(API_URL + "?t=" + new Date().getTime());
                 const data = await response.json();
-                
+
                 // Simpan ke cache
                 localStorage.setItem('uinssc_links_cache', JSON.stringify(data));
-                
+
                 // Jika bukan polling latar belakang, ATAU jika ada perubahan data saat polling, update UI
                 if (!isBackground || (cachedData !== JSON.stringify(data))) {
                     renderLinks(data, container);
                 }
             } catch (error) {
                 console.error("Gagal memuat dari server:", error);
-                
+
                 // Jika server gagal/offline, gunakan Cache sebagai cadangan (Fallback)
                 if (cachedData && !isBackground) {
                     renderLinks(JSON.parse(cachedData), container);
