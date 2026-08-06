@@ -1,5 +1,17 @@
 [
     {
+        "title": "Penerima Beasiswa & Subsidi UKT UPZ Syarifah Mudaim Semester Ganjil 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Revisi-Pengumuman-bantuan-UPZ-Ganjil-Agustus-2026.pdf",
+        "icon": "fa-file-pdf",
+        "isPriority": true
+    },
+    {
+        "title": "Seleksi Penerimaan Mahasiswa Baru Mandiri PJJ S2 Tahap Akhir Tahun Akademik 2026/2027",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/B-5290_Pengumuman-Tahap-Akhir-Penerimaan-Mahasiswa-Baru-PJJ-S2-Revisi.pdf-1.pdf",
+        "icon": "fa-bullhorn",
+        "isPriority": true
+    },
+    {
         "title": "Daftar Nama & Jadwal Chek In Mahasantri Baru pada Program Mukim Ma’had Al-Jami’ah Gel. I Tahun Akademik 2026/2027",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Surat-Pengumuman-mahasantri-mukim-gel-1-TA-20262027_signed_compressed.pdf",
         "icon": "fa-file-pdf",
