@@ -1,5 +1,11 @@
 [
     {
+        "title": "Daftar Nama dan Nomor Kursi Wisuda V",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/DAFTAR-NAMA-DAN-NOMOR-KURSI-WISUDAWAN-V_fix.pdf",
+        "icon": "fa-circle-info",
+        "isPriority": true
+    },
+    {
         "title": "Penerima Beasiswa & Subsidi UKT UPZ Syarifah Mudaim Semester Ganjil 2026/2027",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Revisi-Pengumuman-bantuan-UPZ-Ganjil-Agustus-2026.pdf",
         "icon": "fa-file-pdf",
