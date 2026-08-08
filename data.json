@@ -1,5 +1,11 @@
 [
     {
+        "title": "Pengumuman Penetapan Penerima Bantuan Beasiswa Kerja Tahun 2026",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/B-5410_Pengumuman-Penerima-Bantuan-Beasiswa-Kerja-2026.pdf",
+        "icon": "fa-bullhorn",
+        "isPriority": true
+    },
+    {
         "title": "Pengumuman Pembayaran UKT bagi Calon Mahasiswa Baru Jalur PJJ S1 Gelombang II Tahun 2026",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Pengumuman-Kelulusan-SPMB-Mandiri-PJJ-Reguler-Gelombang-II-dan-Tata-Cara-Pembayaran.pdf",
         "icon": "fa-credit-card-alt",
