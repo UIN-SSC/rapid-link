@@ -1,5 +1,11 @@
 [
     {
+        "title": "Pengumuman Pembayaran UKT bagi Calon Mahasiswa Baru Jalur PJJ S1 Gelombang II Tahun 2026",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/Pengumuman-Kelulusan-SPMB-Mandiri-PJJ-Reguler-Gelombang-II-dan-Tata-Cara-Pembayaran.pdf",
+        "icon": "fa-credit-card-alt",
+        "isPriority": true
+    },
+    {
         "title": "Pengumuman Kelulusan Peserta SPMB Mandiri Reguler Gelombang II Tahun 2026",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/08/1818_SK-Kelulusan-SPMB-Mandiri-Gelombang-II.pdf",
         "icon": "fa-bullhorn",
