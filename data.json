@@ -1,5 +1,11 @@
 [
     {
+        "title": "Pendaftaran Pemilihan Duta Kampus UINSSC 2026",
+        "url": "https://docs.google.com/forms/d/1YGpZNelr539cNZQktheQGmALATY4kNVhPMrkxDWt1es",
+        "icon": "fa-circle-info",
+        "isPriority": true
+    },
+    {
         "title": "Registrasi AICIS+ 2026",
         "url": "https://aicis-links.vercel.app/",
         "icon": "fa-globe",
