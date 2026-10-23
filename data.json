@@ -1,5 +1,11 @@
 [
     {
+        "title": "Pendaftaran Wisuda ke-6 dan Manual Book E-Wisuda UINSSC 2026",
+        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/10/Pengumuman-Pendaftaran-Wisuda-VI.pdf",
+        "icon": "fa-file-pdf",
+        "isPriority": true
+    },
+    {
         "title": "Pendaftaran Pemilihan Duta Kampus UINSSC 2026",
         "url": "https://dutauinssc.vercel.app/",
         "icon": "fa-circle-info",
