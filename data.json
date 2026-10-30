@@ -1,6 +1,12 @@
 [
     {
-        "title": "Pendaftaran Wisuda ke-6 dan Manual Book E-Wisuda UINSSC 2026",
+        "title": "Pengumuman Perpanjangan Pendaftaran Wisuda VI UINSSC",
+        "url": "https://info.uinssc.ac.id/pengumuman-perpanjangan-pendaftaran-wisuda-vi-uinssc/",
+        "icon": "fa-circle-info",
+        "isPriority": true
+    },
+    {
+        "title": "Manual Book E-Wisuda UINSSC 2026",
         "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/10/Pengumuman-Pendaftaran-Wisuda-VI.pdf",
         "icon": "fa-file-pdf",
         "isPriority": true
