@@ -1,20 +1,26 @@
 [
     {
-        "title": "Pengumuman Perpanjangan Pendaftaran Wisuda VI UINSSC",
-        "url": "https://info.uinssc.ac.id/wp-content/uploads/2026/10/Pengumuman-Perpanjangan-Pendaftaran-Wisuda-VI-UINSSC.pdf",
-        "icon": "fa-solid fa-calendar",
+        "title": "Twibbon AICIS+ 2026",
+        "url": "https://twb.nz/readyfor-aicisplus2026",
+        "icon": "fa-camera",
         "isPriority": true
     },
     {
-        "title": "Pengumuman Penjaringan Bakal Calon Rektor Universitas Islam Negeri Siber Syekh Nurjati Cirebon Masa Jabatan 2027-2031",
-        "url": "https://ppid.uinssc.ac.id/storage/public-information/B-7490_Pengumuman%20Panitia%20Penjaringan%20Bakal%20Calon%20Rektor%202027-2031%20III.pdf",
-        "icon": "fa-circle-info",
+        "title": "Official Guide Book of AICIS+ 2026",
+        "url": "https://aicis.uinssc.ac.id/storage/downloads/01M7CSY7TS7G2NR1C74GGNAB2S.pdf",
+        "icon": "fa-book",
         "isPriority": true
     },
     {
         "title": "AICIS+ 2026",
         "url": "https://aicis-links.vercel.app/",
         "icon": "fa-globe",
+        "isPriority": true
+    },
+    {
+        "title": "Pengumuman Penjaringan Bakal Calon Rektor Universitas Islam Negeri Siber Syekh Nurjati Cirebon Masa Jabatan 2027-2031",
+        "url": "https://ppid.uinssc.ac.id/storage/public-information/B-7490_Pengumuman%20Panitia%20Penjaringan%20Bakal%20Calon%20Rektor%202027-2031%20III.pdf",
+        "icon": "fa-circle-info",
         "isPriority": true
     },
     {
